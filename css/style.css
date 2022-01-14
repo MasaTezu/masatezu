@@ -327,6 +327,13 @@ footer p {
     padding-top: 10px;
     }
 
+    .genecontainer ul{
+      padding-left: 20px;
+    }
+
+    .genecontainer ol{
+      padding-left: 20px;
+    }
 
     .descrcon{
     padding-top: 10px;
