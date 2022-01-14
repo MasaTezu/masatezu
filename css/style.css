@@ -16,9 +16,9 @@ a {
     text-decoration: none;
 }
 
-ul {
+/*ul {
      padding-left: 0px;
-}
+}*/
 
 nav{
         align-items: left;
@@ -77,6 +77,10 @@ nav{
     padding-left: 15px;*/
     margin-right: auto;
     margin-left: auto;
+}
+
+.header_inner ul {
+     padding-left: 0px;
 }
 
 
@@ -323,9 +327,6 @@ footer p {
     padding-top: 10px;
     }
 
-    .profescrcon{
-       margin-left: 15px;
-    } 
 
     .descrcon{
     padding-top: 10px;
