@@ -312,10 +312,7 @@ footer p {
 
     /* HEADER */
     .header-nav {
-        font-size: 1rem;
-    }
-    .header-nav__item {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     /* HOME */
