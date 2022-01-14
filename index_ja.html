@@ -46,7 +46,6 @@
                 <h2 class="page-title">MASAYUKI TEZUKA's Homepage</h2>
                 <p id='greeting'></p>
                 <p>手塚 真徹(Masayuki Tezuka)のホームページにようこそ.</p>
-                <p id="RealtimeClockArea"></p>
             </div>
         </div>
         <footer id="pageFoot">
@@ -65,22 +64,6 @@
         else{
             document.getElementById('greeting').textContent = 'こんにちは！';
         }
-
-        function setfig(num) {
-            var ret;
-            if( num < 10 ) { ret = "0" + num; }
-            else { ret = num; }
-            return ret;
-        }
-        function showClock() {
-            var nowTime = new Date();
-            var nowHour = setfig( nowTime.getHours() );
-            var nowMin  = setfig( nowTime.getMinutes() );
-            var nowSec  = setfig( nowTime.getSeconds() );
-            var msg = "現在時刻は、" + nowHour + ":" + nowMin + ":" + nowSec + " です．";
-            document.getElementById("RealtimeClockArea").innerHTML = msg;
-        }
-        setInterval('showClock()',1000);
     </script>
     </body>
 </html>
