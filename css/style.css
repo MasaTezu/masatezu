@@ -90,7 +90,7 @@ nav{
 .header-nav__item {
   flex-grow: 1;
   text-align: center;
-  padding-right: 30px;
+  padding-right: 4px;
 }
 
 .header-nav__item:last-child .header-nav__link::after {
