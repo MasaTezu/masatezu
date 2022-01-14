@@ -314,9 +314,19 @@ footer p {
     align-items: left;
     min-height: 50vh;
     padding-top: 20px;
-}
+    }
 
-
+    .descrcon{
+    padding-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 15px: 
+    font-size: 1rem;
+    text-align: left;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    }
 }
 
 
