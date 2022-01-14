@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>MASAYUKI TEZUKA's Homepage</title>
+        <meta name="description" content="手塚 真徹(Masayuki Tezuka)のホームページ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z7NJFZJHJL"></script>
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="header__inner">
+                <nav>
+                    <ul class="header-nav">
+                        <li class="header-nav__item">
+                            <a class="header-nav__current" href="index_ja.html">ホーム</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="about_me_ja.html">履歴書</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="publications_ja.html">研究実績</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="lectures_ja.html">授業</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="links_ja.html">リンク</a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a class="header-nav__link" href="index.html">English</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+            <div class="home-content wrapper">
+                <h2 class="page-title">MASAYUKI TEZUKA's Homepage</h2>
+                <p id='greeting'></p>
+                <p>手塚 真徹(Masayuki Tezuka)のホームページにようこそ.</p>
+                <p id="RealtimeClockArea"></p>
+            </div>
+        </div>
+        <footer id="pageFoot">
+            <p id="copyright"> &copy; 2020 MASAYUKI TEZUKA</p>
+        </footer>
+    <script>
+        'use strict';
+        const now = new Date();
+        const hour = now.getHours();
+        if(hour >= 17 || hour < 5) {
+            document.getElementById('greeting').textContent = 'こんばんは！';
+        }
+        else if (hour >= 5 && hour  <12){
+            document.getElementById('greeting').textContent = 'おはようございます！';
+        }
+        else{
+            document.getElementById('greeting').textContent = 'こんにちは！';
+        }
+
+        function setfig(num) {
+            var ret;
+            if( num < 10 ) { ret = "0" + num; }
+            else { ret = num; }
+            return ret;
+        }
+        function showClock() {
+            var nowTime = new Date();
+            var nowHour = setfig( nowTime.getHours() );
+            var nowMin  = setfig( nowTime.getMinutes() );
+            var nowSec  = setfig( nowTime.getSeconds() );
+            var msg = "現在時刻は、" + nowHour + ":" + nowMin + ":" + nowSec + " です．";
+            document.getElementById("RealtimeClockArea").innerHTML = msg;
+        }
+        setInterval('showClock()',1000);
+    </script>
+    </body>
+</html>
+
