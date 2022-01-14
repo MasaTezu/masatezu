@@ -78,6 +78,7 @@ nav{
 
 .header-nav {
   display: flex;
+  overflow:hidden;
   justify-content: space-around;
   list-style: none;
   padding: 0;
