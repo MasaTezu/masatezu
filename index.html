@@ -50,11 +50,43 @@
 
             <div class="home-content wrapper">
                 <h2 class="page-title">MASAYUKI TEZUKA's Homepage</h2>
+                <p id='greeting'></p>
                 <p>Welcome to Masayuki Tezuka's homepage.</p>
+                <p id="RealtimeClockArea"></p>
             </div>
         <footer id="pageFoot">
             <p id="copyright"> &copy; 2020 MASAYUKI TEZUKA</p>
         </footer>
+            <script>
+        'use strict';
+        const now = new Date();
+        const hour = now.getHours();
+        if(hour >= 17 || hour < 5) {
+            document.getElementById('greeting').textContent = 'Good evening!';
+        }
+        else if (hour >= 5 && hour  <12){
+            document.getElementById('greeting').textContent = 'Good morning!';
+        }
+        else{
+            document.getElementById('greeting').textContent = 'Good Afternoon!';
+        }
+
+        function setfig(num) {
+            var ret;
+            if( num < 10 ) { ret = "0" + num; }
+            else { ret = num; }
+            return ret;
+        }
+        function showClock() {
+            var nowTime = new Date();
+            var nowHour = setfig( nowTime.getHours() );
+            var nowMin  = setfig( nowTime.getMinutes() );
+            var nowSec  = setfig( nowTime.getSeconds() );
+            var msg = nowHour + ":" + nowMin + ":" + nowSec;
+            document.getElementById("RealtimeClockArea").innerHTML = msg;
+        }
+        setInterval('showClock()',1000);
+    </script>
 
         <!-- /#home -->
     </body>
