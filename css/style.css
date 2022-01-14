@@ -178,7 +178,8 @@ nav{
 }
 .home-content {
     text-align: center;
-    margin-top: 15%;
+    padding-top: 10%;
+    margin-top: 5%;
 }
 .home-content p {
     font-size: 1.4rem;
