@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+     padding-left: 0px;
+}
+
 nav{
         align-items: left;
 }
@@ -81,10 +85,11 @@ nav{
   overflow:hidden;
   justify-content: space-around;
   list-style: none;
-  padding-left: 0px;
   width:100%;
   text-align: center;   /*ポイント!*/
 }
+
+
 
 .header-nav__item {
   flex-grow: 1;
