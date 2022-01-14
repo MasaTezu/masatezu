@@ -309,5 +309,15 @@ footer p {
         margin-top: 20%;
     }
 
+    .genecontainer{
+    justify-content: center;
+    align-items: left;
+    min-height: 50vh;
+    padding-top: 20px;
+}
+
+
+}
+
 
 
