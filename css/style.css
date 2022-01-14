@@ -80,12 +80,15 @@ nav{
   display: flex;
   justify-content: space-around;
   list-style: none;
+  padding: 0;
+  width:100%;
+  text-align: center;   /*ポイント!*/
 }
 
 .header-nav__item {
   flex-grow: 1;
   text-align: center;
-  padding-right: 0px;
+  padding-right: 4px;
 }
 
 .header-nav__item:last-child .header-nav__link::after {
