@@ -297,13 +297,10 @@ footer p {
     }
 
     /* HEADER */
-    .main-nav {
+    .header-nav {
         font-size: 0.1rem;
-        margin-top: 10px;
     }
-    .main-nav li {
-        margin: 0 0rem;
-    }
+
 
     /* HOME */
     .home-content {
