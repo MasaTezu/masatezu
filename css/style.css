@@ -90,7 +90,7 @@ nav{
 .header-nav__item {
   flex-grow: 1;
   text-align: center;
-  padding-right: 4px;
+  padding-right: 0px;
 }
 
 .header-nav__item:last-child .header-nav__link::after {
@@ -100,7 +100,7 @@ nav{
 .header-nav__link {
   position: relative;
   display: block;
-  padding: 0px 5px;
+  padding: 0px 0px;
   border-bottom: 4px solid transparent;
   color: #432;
   text-decoration: none;
@@ -129,7 +129,7 @@ nav{
 .header-nav__current {
   position: relative;
   display: block;
-  padding: 0px 5px;
+  padding: 0px 10px;
   border-bottom: 4px solid transparent;
   color: #432;
   text-decoration: none;
