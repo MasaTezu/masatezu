@@ -294,11 +294,11 @@ footer p {
 
     /* HEADER */
     .main-nav {
-        font-size: 0.5rem;
+        font-size: 0.3rem;
         margin-top: 10px;
     }
     .main-nav li {
-        margin: 0 0.2rem;
+        margin: 0 0.1rem;
     }
 
     /* HOME */
