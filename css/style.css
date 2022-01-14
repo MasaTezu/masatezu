@@ -108,7 +108,7 @@ nav{
 .header-nav__link {
   position: relative;
   display: block;
-  padding: 0px 0px;
+  padding: 0px 4px;
   border-bottom: 4px solid transparent;
   color: #432;
   text-decoration: none;
@@ -137,7 +137,7 @@ nav{
 .header-nav__current {
   position: relative;
   display: block;
-  padding: 0px 0px;
+  padding: 0px 4px;
   border-bottom: 4px solid transparent;
   color: #432;
   text-decoration: none;
@@ -213,8 +213,7 @@ details[open] {
 
 
 .endspace {
-  width: 200px;
-  height: 200px;
+  height: 40px;
 }
 
 
