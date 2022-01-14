@@ -313,14 +313,14 @@ footer p {
     justify-content: center;
     align-items: left;
     min-height: 50vh;
-    padding-top: 20px;
+    padding-top: 10px;
     }
 
     .descrcon{
-    padding-top: 25px;
-    margin-left: 20px;
+    padding-top: 10px;
+    margin-left: 10px;
     margin-right: 20px;
-    padding-left: 15px: 
+    padding-left: 10px: 
     font-size: 1rem;
     text-align: left;
     display: flex;
