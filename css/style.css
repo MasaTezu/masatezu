@@ -133,7 +133,7 @@ nav{
 .header-nav__current {
   position: relative;
   display: block;
-  padding: 0px 4px;
+  padding: 0px 0px;
   border-bottom: 4px solid transparent;
   color: #432;
   text-decoration: none;
