@@ -10,7 +10,7 @@ html {
 body{
     height: 100%;
     font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
-    line-height: 1.7;
+    line-height: 1.6;
     background-color: #f8f8f8;
     font-size: 1.2rem;
 }
@@ -311,7 +311,7 @@ footer p {
 @media (max-width: 600px) {
 
 body{
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
     h1{
